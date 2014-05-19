@@ -1,0 +1,21 @@
+struct Time {
+	#include <stdio.h>
+	field int Hours
+	field int Minutes
+}
+
+struct Date {
+	field int Year
+	field int Month
+	field int Day
+}
+
+struct TimeRange {
+	field Time From;
+	field Time To;
+}
+
+struct DateRange {
+	field Date From;
+	field Date To;
+}
