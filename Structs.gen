@@ -19,3 +19,5 @@ struct DateRange {
 	field Date From;
 	field Date To;
 }
+
+vector DateRangeList : DateRange
